@@ -1,13 +1,10 @@
-package coreJavaTraining;
+package corejavatraining;
 
-public class forloopexample {
+public class ForLoopExample {
 
-    public static void main (String[] args) {
-
-        for(int i =0;i<3;i++)
-        {
+    public static void main(String[] args) {
+        for (int i = 0; i < 3; i++) {
             System.out.println(i);
-
         }
     }
 }

@@ -1,8 +1,10 @@
-package coreJavaTraining;
+package corejavatraining;
 
-public class finaldemo {
+public class FinalDemo {
+
     public static void main(String[] args) {
-        final int a=10;//if we declare final keyword with variable value cannot be changed
+        final int a = 10;
+
         System.out.println(a);
     }
 }

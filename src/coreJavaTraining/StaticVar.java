@@ -1,12 +1,10 @@
-package coreJavaTraining;
-
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+package corejavatraining;
 
 public class StaticVar {
 
-    String name; // Instant variable
+    String name;
     String address;
-    static String city ="Bangalore";// Class variable
+    static String city = "Bangalore";
     static int i = 0;
 
 
@@ -27,12 +25,11 @@ public class StaticVar {
 
 
     public static void main(String[] args) {
-
         StaticVar obj = new StaticVar("Dhanunjaya", "BTM");
         StaticVar obj1 = new StaticVar("Ram", "Jayanagar");
         StaticVar obj2 = new StaticVar("Ram", "Jayanagar");
+
         obj.getAddress();
         obj1.getAddress();
-
     }
 }
